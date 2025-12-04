@@ -54,7 +54,7 @@ if ( apply_filters( 'astra_header_profile_gmpg_link', true ) ) {
 	);
 	?>
 >
-<h1>New change in header Hello Git test</h1>
+
 	<?php
 	astra_header_before(); ?>
 	<div class="ast-above-header ast-above-header-bar topnotibar">
