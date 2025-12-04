@@ -1,0 +1,21 @@
+# BEGIN WordPress
+# BEGIN JWT for WP Engine
+SetEnvIf Authorization "(.*)" HTTP_AUTHORIZATION=$1
+# END JWT for WP Engine
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteRule ^\.well-known/traffic-advice$ - [T=application/trafficadvice+json,END]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+# END WordPress
+
+<IfModule mod_headers.c>
+    <FilesMatch "^forms/official-complaint-form/?$">
+        Header set Cache-Control "no-store, no-cache, must-revalidate, max-age=0"
+        Header set Pragma "no-cache"
+    </FilesMatch>
+</IfModule>

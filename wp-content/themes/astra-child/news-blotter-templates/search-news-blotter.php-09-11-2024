@@ -1,0 +1,92 @@
+<?php
+/**
+ * The template for displaying search results pages.
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#search-result
+ *
+ * @package Astra
+ * @since 1.0.0
+ */
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly.
+}
+
+get_header(); 
+
+display_news_header();
+
+if ( isset( $_GET['post_type'] ) && $_GET['post_type'] == 'news-blotter' ){
+?>
+
+<div id="news-blotter-container" class="news-blotter-container">
+    <div id="news-blotter-content" class="news-blotter-content">
+        <?php 
+        $search_query = get_search_query();
+        if ( have_posts() ) : ?>
+
+            <h1><?php printf( __( 'Search Results for: %s', 'textdomain' ), '<span>' . esc_html( $search_query ) . '</span>' ); ?></h1>
+
+            <?php
+            while ( have_posts() ) : the_post(); ?>
+
+                <div class="news_blotter_post">
+                <div class="news_blotter_thumbnail">
+                <?php if ( has_post_thumbnail() ) : ?>
+                    <a href="<?php the_permalink(); ?>">
+                        <img src="<?php echo get_the_post_thumbnail_url(get_the_ID(), array(300, 300)); ?>" alt="<?php the_title(); ?>" width="300" height="300">
+                    </a>
+                <?php endif; ?>
+                </div>
+                <div class="news_blotters_info">
+                <p class="news_blotter_date"><time datetime="<?php echo get_the_date('c'); ?>"><?php echo get_the_date(); ?></time></p>
+                <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+                <?php the_excerpt(); ?> <!-- Use the_excerpt() for a short preview of the content -->
+                
+                </div>
+                </div>
+
+            <?php endwhile; 
+            the_posts_pagination();
+        else : ?>
+
+            <p><?php _e('No posts found for your search query.', 'textdomain'); ?></p>
+
+        <?php endif; 
+        ?>
+    </div>
+
+            <?php
+            display_news_blotter_sidebar();
+            ?>
+</div>
+
+
+
+<?php
+}else{
+
+
+
+if ( astra_page_layout() == 'left-sidebar' ) {
+    get_sidebar();
+}
+echo '<div id="primary" ' . astra_primary_class() . '>';
+astra_primary_content_top();
+astra_archive_header();
+astra_content_loop();
+astra_pagination();
+astra_primary_content_bottom();
+echo '</div><!-- #primary -->';
+if ( astra_page_layout() == 'right-sidebar' ) {
+    get_sidebar();
+}
+
+
+}
+
+
+
+get_footer();
+?>
+

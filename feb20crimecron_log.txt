@@ -1,0 +1,36 @@
+[2025-02-20 22:54:08] CrimeCron Job Started
+[2025-02-20 22:54:08] 1 Process already inprogress
+[2025-02-20 22:56:47] CrimeCron Job Started
+[2025-02-20 22:56:47] 1 Process already inprogress
+[2025-02-20 23:00:13] CrimeCron Job Started
+[2025-02-20 23:00:13] 1 Process already inprogress
+[2025-02-20 23:02:09] CrimeCron Job Started
+[2025-02-20 23:02:09] 1 Process already inprogress
+[2025-02-20 23:19:09] CrimeCron Job Started
+[2025-02-20 23:19:09] 1 Process already inprogress
+[2025-02-20 23:22:09] CrimeCron Job Started
+[2025-02-21 02:48:04] Invalid rows written to: invalid_rows.csv
+[2025-02-21 02:48:04] Executed File Name  : crimedata-02202025.csv
+[2025-02-21 02:48:04] Total Record Inserted : 193625
+[2025-02-21 02:48:04] Total Record Updated : 0
+[2025-02-21 02:48:04] Total Record Invalid : 769
+[2025-02-21 02:48:04] Total Execution Time In Minutes : 205.908962882 /In Seconds : 12354.5377729
+[2025-02-21 02:48:04] CrimeCron Job Completed
+[2025-02-21 02:48:06] Email Sent
+[2025-02-21 02:48:06]  Set to False 
+[2025-02-21 02:48:06] File Deleted : crimedata-02042025.csv.bkp---January 01 1970 00:00:00.
+[2025-02-21 02:48:06] File Skipped : crimedata-02052025.csv.bkp---February 05 2025 10:02:17.
+[2025-02-21 02:48:06] File Skipped : crimedata-02062025.csv.bkp---February 06 2025 10:01:15.
+[2025-02-21 02:48:06] File Skipped : crimedata-02072025.csv.bkp---February 07 2025 10:02:42.
+[2025-02-21 02:48:06] File Skipped : crimedata-02082025.csv.bkp---February 08 2025 10:02:23.
+[2025-02-21 02:48:06] File Skipped : crimedata-02092025.csv.bkp---February 09 2025 10:02:23.
+[2025-02-21 02:48:06] File Skipped : crimedata-02102025.csv.bkp---February 10 2025 10:02:22.
+[2025-02-21 02:48:06] File Skipped : crimedata-02112025.csv.bkp---February 11 2025 10:02:39.
+[2025-02-21 02:48:06] File Skipped : crimedata-02122025.csv.bkp---February 12 2025 10:02:59.
+[2025-02-21 02:48:06] File Skipped : crimedata-02132025.csv.bkp---February 13 2025 10:02:42.
+[2025-02-21 02:48:06] File Skipped : crimedata-02142025.csv.bkp---February 14 2025 10:02:35.
+[2025-02-21 02:48:06] File Skipped : crimedata-02152025.csv.bkp---February 15 2025 10:01:45.
+[2025-02-21 02:48:06] File Skipped : crimedata-02162025.csv.bkp---February 16 2025 10:01:52.
+[2025-02-21 02:48:06] File Skipped : crimedata-02172025.csv.bkp---February 17 2025 10:02:47.
+[2025-02-21 02:48:06] File Skipped : crimedata-02182025.csv.bkp---February 18 2025 10:02:31.
+[2025-02-21 02:48:06] File Skipped : crimedata-02192025.csv.bkp---February 19 2025 10:02:09.

@@ -1,0 +1,296 @@
+.three-column-img .column-img-wrap {height: 215px !important; }
+
+.news-post-video .elementor-post__read-more {
+  display: flex;
+  position: absolute;
+  right: 50px;
+  top: 45%;
+  background: #0058E6;
+  padding: 15px 25px;
+  color: #fff !important;
+  text-decoration: none !important;
+  border-radius: 6px;
+}
+
+.news_blotter_post {
+  width: 100%;
+  display: block;
+}
+.news_blotter_thumbnail {
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 30px;
+}
+.news_blotters_info {
+  width: 55%;
+  display: inline-block;
+}
+
+.news_blotters_info h2 {
+  font-family: 'Poppins';
+  font-size: 30px !important;
+  font-weight: 700;
+  text-decoration: none !important;
+}
+.news_blotters_info h2 a {
+  text-decoration: underline !important;
+  font: inherit !important;
+}
+
+
+
+/*===12=27-2024===*/
+
+.filter-container-years.filter-column select.filter-dropdown:focus {
+  outline: #000 solid 1px;
+}
+ .filter-container-years.filter-column select.filter-dropdown option:focus {
+outline: #000 dotted 1px;
+}
+
+.bg-banner-text a:focus, .footer-blue-strip a:focus,
+.notification-short-description .read-more:focus, .crime-data-links a:active, .crime-data-links a:focus, .breadcrumbs-panel a:focus  {
+/*border: #fff solid 1px !important;*/
+outline: #fff dashed 2px !important;
+}
+
+ .news-blotter-posts-short .news-blotter-post h3 a:focus {
+/*border: #243562 solid 1px !important;*/
+outline: #243562 dashed 2px !important;
+}
+
+ .container-crime .control-btn:focus img,
+ .custom-checkbox input:active, .custom-checkbox input:focus {
+/*border: #243562 solid 1px !important;*/
+outline: #243562 dashed 2px !important;
+}
+.news-filter .archives #archive-select:active, .news-filter .categories #category-select:active,
+.news-filter .archives #archive-select:focus, .news-filter .categories #category-select:focus {
+/*border: #243562 solid 1px !important;*/
+outline: #243562 dashed 2px !important;
+}
+
+.news-blotter-sidebar .search input:active, .news-blotter-sidebar .search input:focus {
+/*border: #243562 solid 1px !important;*/
+outline: #243562 dashed 2px !important;
+}
+
+
+
+.gform-theme--framework input:focus, .gform-theme--framework textarea:focus,  {
+/*border: #243562 solid 1px !important;*/
+outline: #243562 dashed 2px !important;
+}
+
+
+/*--------------------------------*/
+/*.ppd-footer .footer-bottom ul.elementor-nav-menu.elementor-nav-menu.sm-vertical li a:hover,
+.ppd-footer .footer-bottom .elementor-icon-wrapper .elementor-icon:hover, .ppd-footer .middle-footer-menu .elementor-item.menu-link:hover,
+.ast-single-post .entry-content a:hover {
+  outline: #243562 dashed 3px !important;
+} 
+
+.ast-builder-menu-1 .menu-item.current-menu-item > .menu-link:hover, .ast-builder-menu-1 .inline-on-mobile .menu-item.current-menu-item > .ast-menu-toggle:hover, .ast-builder-menu-1 .current-menu-ancestor > .menu-link:hover, .ast-builder-menu-1 .menu-item > .menu-link:hover, .astra-search-icon:hover {
+	outline: #243562 dashed 2px !important;
+}
+  */
+
+ .footer-blue-strip a:focus, .crime-data-nav .elementor-icon-list-items a:focus, body.districts-template-default.single.single-districts section.districtHeader p#breadcrumbs a:hover, body.districts-template-default.single.single-districts section.districtHeader p#breadcrumbs a:focus {
+	outline: #fff dashed 3px !important;
+}
+
+
+.gform_wrapper.gform-theme input:focus,
+ .gform_wrapper.gform-theme select:focus, .gform_wrapper.gform-theme textarea:focus,  input:focus,   .news-filter .archives #archive-select:focus, .news-filter .categories #category-select:focus {
+	outline: #243562 dashed 3px !important;
+}
+
+.page-id-5798 #print-submit-a-tip, .page-id-5798 #gform_submit_button_2 {
+    height: 50px;
+}
+.form_saved_message a.saveconBtn {
+	    height: 50px;
+    line-height: 30px;
+}
+/*@media screen and (min-width:787px)  {
+.all-crime-data-table {
+	overflow: hidden !important;
+}
+}*/
+
+#leftPanel input[type="checkbox"]:focus:checked, #leftPanel input[type="checkbox"]:focus {
+  outline: #243562 dashed 1px !important;
+}
+
+
+/* banner bold test*/
+
+.bold-text h2, .bold-text h1 { font-weight: 800 !important;}
+
+.bold h2, .bold h1 { font-weight: 800 !important;}
+
+@media (min-width: 768px) and (max-width: 1280px)  {
+
+  .banner-button a.elementor-button.elementor-size-sm {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+  }
+}
+
+.news-blotter-sidebar .Submitatip input[type="text"], 
+.Submitatip input[type="tel"], 
+.Submitatip input[type="email"], 
+.news-blotter-sidebar .Submitatip textarea {
+  border-color: #696969 !important;
+}
+
+
+
+/*---safecam---*/
+
+.safecamForm .gf_page_steps .gf_step_label, .safecamForm .gf_page_steps .gf_step_number {
+  font-size: 18px !important;
+}
+
+.safecamForm label {
+  font-size: 16px !important;
+  font-weight: bold !important;
+  margin-top: 5px !important;
+  display: block !important;
+}
+.safecamForm legend {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-size: 16px !important;
+  line-height: 18px !important;
+  font-weight: bold !important;
+}
+
+.safecamForm .safecamAddress .gform-grid-row label {
+  font-size: 14px !important;
+  margin-top: 25px !important;
+}
+
+.safecamForm .totalCameras input {
+  font-size: 19px !important;
+  line-height: 25px !important;
+  padding: 15px !important;
+  border: #646464 solid 2px !important;
+}
+
+
+.safecamForm .gform_confirmation_message {
+  padding: 50px 0;
+  font-size: 25px;
+  color: #77a900;
+}
+
+.safecamForm p.successValidation {
+  padding: 25px;
+  border: #0d5700 solid 2px;
+  border-radius: 6px;
+  color: #0d5700;
+  background-color: rgb(24 108 9 / 9%);
+}
+
+.safecamForm p.failValidation {
+  padding: 25px;
+  border: #aa0000 solid 2px;
+  border-radius: 6px;
+  color: #aa0000;
+  background-color: #fff5f4;
+}
+
+
+@media (min-width: 1024px) and (max-width: 1280px)  {
+
+  .main-header-bar-navigation .astra-full-megamenu-wrapper ul.astra-megamenu.sub-menu.astra-mega-menu-width-full .ast-mm-custom-text-content {
+    padding: .9em 5.65em 0.9em 0.75em;
+    font-size: 12px !important;
+  }
+
+}
+
+.complaintFilter .comfilcol {max-width: 340px !important; }
+
+@media screen and (max-width:787px)  {
+  .complaintFilter {
+    display: block;
+  }
+  .complaintFilter .comfilcol {
+    width: 100% !important;
+    padding: 5px 15px;
+    max-width: 100% !important;
+  }
+  #complaint-table_filter {padding: 0 !important;}
+  #complaint-table_length { display: none; }
+
+  .right-to-know-information {display: block; overflow: auto;}
+
+}
+
+
+/*---banner officer's name ---*/
+@media screen and (max-width:1300px)  {
+
+  .meet_d_officer p strong {
+      font-size: 20px !important;
+  }
+
+}
+
+@media screen and (max-width:1024px)  {
+
+  .meet_d_officer p strong {
+      font-size: 18px !important;
+  }
+
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+  .banner-button { bottom: -555px;}
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation : landscape){
+  .banner-button {
+      position: absolute;
+      bottom: -10%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .banner-button {
+      bottom: -660px; !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .banner-button {
+      bottom: -470px !important;
+  }
+}
+
+
+
+.distEventDetailsPopup p {margin-top: 10px;}
+
+
+/*---district-detailspage-breadcrumb---*/
+
+@media only screen and (max-width: 767px) {
+
+  body.districts-template-default.single.single-districts section.districtHeader:before {left: -20px;}
+  body.districts-template-default.single.single-districts section.districtHeader:after {right: -20px;}
+
+}
+
+
+/*---cap form respoonsive---*/
+@media screen and (max-width: 767px) {
+div#gform_fields_16 fieldset#field_16_73 {
+  top: -7px !important;
+}
+.customTextCount { top: -10px;}
+}

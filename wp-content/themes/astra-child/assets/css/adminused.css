@@ -1,0 +1,15 @@
+.filter-wrap{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.filter-wrap .event-column select, .filter-wrap .event-column input{
+
+    padding: 4px 24px;
+    border: 1px solid #ccc;
+}
+#eventTable tr th{
+    background: #0058E6;
+    color: #fff;
+    border-right: 1px solid #fff;
+}
