@@ -26,5 +26,5 @@ jobs:
 
       - name: Push to WP Engine
         run: |
-          git remote add wpengine git@git.wpengine.com:cfrdevwp.git
+          git remote add wpengine git@git.wpengine.com:phillypddev.git
           git push -f wpengine HEAD:master
