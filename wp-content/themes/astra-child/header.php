@@ -33,7 +33,7 @@ if ( apply_filters( 'astra_header_profile_gmpg_link', true ) ) {
 </head>
 
 <body <?php astra_schema_body(); ?> <?php body_class(); ?>>
-<div style="display:none;">Testttt</div>
+<div style="display:none;">Hi Buddy!</div>
 <?php astra_body_top(); ?>
 <?php wp_body_open(); ?>
 <a
